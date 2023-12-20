@@ -35,7 +35,6 @@ public class Produto {
                 + nome
                 + ": "
                 + String.format("$%.2f", preco);
-        ;
         return s;
     }
 }
