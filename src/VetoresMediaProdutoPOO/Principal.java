@@ -1,4 +1,4 @@
-package ExercicioVetores2;
+package VetoresMediaProdutoPOO;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -15,7 +15,7 @@ public class Principal {
 
         for(int i=0; i<n; i++){
             System.out.printf("Digite o nome do %d° produto: ", (i+1));
-            sc.next();
+            sc.nextLine();
             String nome = sc.nextLine();
             System.out.printf("Digite o preço do %d° produto: ", (i+1));
             double preco = sc.nextDouble();

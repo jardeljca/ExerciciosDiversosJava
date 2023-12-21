@@ -1,4 +1,4 @@
-package ExercicioVetores;
+package VetoresMediaAltura;
 import java.util.Locale;
 import java.util.Scanner;
 

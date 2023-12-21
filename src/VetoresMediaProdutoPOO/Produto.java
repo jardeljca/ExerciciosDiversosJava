@@ -1,4 +1,4 @@
-package ExercicioVetores2;
+package VetoresMediaProdutoPOO;
 
 public class Produto {
 
