@@ -31,7 +31,7 @@ public class Principal {
         for(int i=0; i<n; i++){
             System.out.println(vect[i]);
         }
-        System.out.printf("Média de preço dos %d produtos é $2%.2f\n", n, media);
+        System.out.printf("Média de preço dos %d produtos é $ %.2f\n", n, media);
 
 
         sc.close();
