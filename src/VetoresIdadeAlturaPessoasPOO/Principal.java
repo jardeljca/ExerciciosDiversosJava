@@ -33,7 +33,7 @@ bem como os nomes dessas pessoas caso houver.*/
             somaAltura = somaAltura + vetor[i].getAltura();
         }
         double mediaAltura = somaAltura/qtdPessoas;
-        System.out.printf("Altura média: %.0f", mediaAltura);
+        System.out.printf("Altura média: %.1f\n\n", mediaAltura);
 
         int pessoasMenores = 0;
         for(int i = 0; i<qtdPessoas; i++){
@@ -43,7 +43,7 @@ bem como os nomes dessas pessoas caso houver.*/
         }
 
         double porcentagemIdade = ((double)pessoasMenores/qtdPessoas) * 100;
-        System.out.printf("Pessoas com menos de 16 anos: %.2f%%", porcentagemIdade);
+        System.out.printf("Pessoas com menos de 16 anos: %.1f%%\n\n", porcentagemIdade);
 
         ArrayList<String> nomesMenoresDe16 = new ArrayList<>();
         for (int i = 0; i < qtdPessoas; i++) {
@@ -55,7 +55,7 @@ bem como os nomes dessas pessoas caso houver.*/
         if (nomesMenoresDe16.size() != 0) {
             System.out.println("As pessoas menores de 16 anos são:");
             for (int i = 0; i < nomesMenoresDe16.size(); i++) {
-                System.out.println(nomesMenoresDe16.get(i));
+                System.out.println("-" + nomesMenoresDe16.get(i));
             }
         } else {
             System.out.println("Não existem pessoas menores de 16 anos nesta lista");
@@ -63,4 +63,3 @@ bem como os nomes dessas pessoas caso houver.*/
 
     }
 }
-
