@@ -52,6 +52,7 @@ bem como os nomes dessas pessoas caso houver.*/
             }
         }
 
+
         if (nomesMenoresDe16.size() != 0) {
             System.out.println("As pessoas menores de 16 anos são:");
             for (int i = 0; i < nomesMenoresDe16.size(); i++) {
