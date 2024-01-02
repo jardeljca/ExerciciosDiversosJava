@@ -24,7 +24,7 @@ public class Principal {
         for (int i = 0; i < n; i++) {
             System.out.println("Funcionário #" + (i+1) + ": ");
             System.out.print("Id: ");
-            Integer id = sc.nextInt();
+            int id = sc.nextInt();
             while(existeId(list, id)){
                 System.out.print("Esse id já existe, digite outro id:");
                 id = sc.nextInt();
@@ -33,7 +33,7 @@ public class Principal {
             sc.nextLine();
             String nome = sc.nextLine();
             System.out.print("Salário: ");
-            Double salario = sc.nextDouble();
+            double salario = sc.nextDouble();
 
             Funcionario func = new Funcionario(id, nome, salario);
 
